@@ -1,0 +1,3 @@
+# Business objectives
+
+Our main goal is to fill the gap caused by not having enough doctors, ensuring that patients are still attended to quickly and helping doctors to handle more patients easily by using AI for diagnosis and monitoring, and also freeing doctors to concentrate on urgent and complex cases. When there are not many doctors, AI can give an early check, so people can still get care. Use AI to give faster diagnoses and monitoring, so patients spend less time waiting in hospitals and clinics.
