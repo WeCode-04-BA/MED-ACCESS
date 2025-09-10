@@ -1,0 +1,3 @@
+# Requirements
+
+Medical datasets will be required as it will be used to train and test the AI System. Technology will be needed since our project will be developed in python using libraries such scikit-learn, TensorFlow and more for machine learning and natural language. The AI system must look at patient information, such as symptoms, scans, medical history, and lab results. It should give suggestions for possible conditions, and doctors and nurses must be trained to use it properly. The system must keep patient data safe, have a reliable internet connection, and use easy-to-operate software and hardware. It should also be updated and checked to make sure it works properly.
