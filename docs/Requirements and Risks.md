@@ -13,3 +13,24 @@ Privacy and ethics - Our AI system will follow laws like POPIA to protect patien
 Incorrect Diagnosis: There is a risk that the AI system might return wrong results when checking symptoms or records. If that happens patient could receive wrong advice or delayed treatment.
 System Downtime: Problems with the internet or hardware could stop the AI from working when needed.
 Resistance from Healthcare staff: Doctors, nurses or other staff around health care sector may be worried that AI will replace them and take their jobs.so this can slow down the implementation of AI system
+
+# Tools and Techniques
+
+Data collection and integration
+The system will collect information from patient records, lab results, scans, and medical histories. It will combine data from hospitals, clinics, and electronic health records. The patient data may include symptoms, past illnesses, test results, and imaging scans. Historical medical information will also be used to help the AI make more correct predictions.
+
+AI Tools
+-Python with libraries like Scikit-learn, Tensorflow, PyTorch, Spacy, Pands, Numpy, and Matplotlib will be used for machine learning, data analysis and visualization.
+-Github it will help us with version control and managing tasks as a team
+-Jupiter Notebook/Vs code we will use them for coding environments
+
+Techniques
+-Classification models will help us with predictions 
+-Natural Language processing will be used to understand and analyse patient-reported symptoms
+-Time-series analysis will study patient history
+-Data pre-processing a technique that will be used to clean and improve the data
+
+Data Protection
+Data will be kept safe and shared securely to protect privacy and follow rules.
+
+
