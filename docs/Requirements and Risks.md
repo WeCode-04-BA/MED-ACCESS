@@ -7,3 +7,9 @@ Medical datasets will be required as it will be used to train and test the AI Sy
 Quality of Data – The AI can only provide reliable predictions if patient information is correct and complete. Missing or incorrect records may lead to wrong suggestions.
 Training and Use – Doctors, nurses, and staff need proper training to use the system well. If they are not comfortable with new technology, system use may be slow.
 Privacy and ethics - Our AI system will follow laws like POPIA to protect patient’s data.
+
+
+# Risks
+Incorrect Diagnosis: There is a risk that the AI system might return wrong results when checking symptoms or records. If that happens patient could receive wrong advice or delayed treatment.
+System Downtime: Problems with the internet or hardware could stop the AI from working when needed.
+Resistance from Healthcare staff: Doctors, nurses or other staff around health care sector may be worried that AI will replace them and take their jobs.so this can slow down the implementation of AI system
