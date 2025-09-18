@@ -15,3 +15,7 @@ Speech  Synthesis - as optional the system can speak the results and precautions
 -NLP: NLTK, spacy
 -Speech Recognition: SpeechRecognition
 -Speech Synthesis - pyttsx3,gTTS
+
+# Deep learning
+
+Deep learning is a type of machine learning that uses a network called neural networks with many layers to learn patterns from large amounts of data. It will help in healthcare by looking at medical images like X-rays, CT scans, and MRIs to find diseases such as pneumonia, tumors, or broken bones. It can also study patient histories and test results to predict health problems. For MED-Access, deep learning helps the AI give more accurate diagnoses by learning from many past cases and medical images, helping doctors make faster and better decisions.
