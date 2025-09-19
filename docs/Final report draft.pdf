@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
 
 1. AI Solution 
+
 MED-Access is an AI healthcare platform created to help with the shortage of doctors in 
 South Africa. The system identifies diseases and monitors patients, supporting doctors 
 by analyzing symptoms and suggesting possible diagnoses quickly. By looking at 
@@ -16,10 +15,8 @@ hospitals and rural clinics, which causes delays in treatment because they have 
 a high number of patients and have little time with each patient. A patient may have 
 complicated symptoms or a medical history that can be difficult for doctors or nurses to 
 figure out faster, which can cause other patients to wait in long queues for long hours. 
-Currently, doctors overwork, leading to stress and less efficiency.
-
+Currently, doctors overwork, leading to stress and less efficiency. 
 How Relevant is it to the theme? 
-
 This AI solution fits the theme because it uses artificial intelligence to help healthcare by 
 making diagnoses faster. By using this AI, the project will help support doctors, improve 
 the quality of health support, and also make healthcare more accessible to everyone. 
@@ -36,7 +33,6 @@ symptoms and medical histories with large databases, which lowers the chance of 
 errors. 
 
 3.Business objectives 
-
 Our main goal is to fill the gap caused by not having enough doctors, ensuring that 
 patients are still attended to quickly and helping doctors to handle more patients easily 
 by using AI for diagnosis and monitoring, and also freeing doctors to concentrate on 
@@ -45,7 +41,6 @@ so people can still get care. Use AI to give faster diagnoses and monitoring, so
 spend less time waiting in hospitals and clinics. 
 
 4. Success criteria 
-
 The AI project will be successful if at least waiting times for patients are cut by 40% and 
 doctors' load is reduced by 30%, at least 70% of patients must be satisfied with the 
 service, and also if they spend less time waiting in hospitals and clinics because AI helps 
@@ -54,7 +49,6 @@ workload in hospitals where there are only a few doctors, and if patients spend 
 waiting for diagnoses and treatment at clinics. 
 
 5.Business Background 
-
 The healthcare industry faces a challenge of not having enough doctors in hospitals and 
 clinics to meet the needs of all patients, because there are not enough doctors, patients 
 have to wait a long hours, diagnoses are slower, and both doctors and patients feel more 
@@ -66,7 +60,6 @@ helping doctors make decisions faster. AI lowers doctors’ workload, allows the
 on urgent or complicated patients, and helps patients get care more quickly and easily. 
 
 6.Requirements 
-
 Medical datasets will be required as they will be used to train and test the AI System. 
 Technology will be needed since our project will be developed in python using libraries 
 such as scikit-learn, TensorFlow, and more for machine learning and natural language. 
@@ -76,8 +69,7 @@ and nurses must be trained to use it properly. The system must keep patient data
 have a reliable internet connection, and use easy-to-operate software and hardware. It 
 should also be updated and checked to make sure it works properly. 
 
-7.Constraints
-
+7.Constraints 
 Quality of Data – The AI can only provide reliable predictions if patient information is 
 correct and complete. Missing or incorrect records may lead to wrong suggestions. 
 Training and Use – Doctors, nurses, and staff need proper training to use the system well. 
@@ -85,7 +77,6 @@ If they are not comfortable with new technology, system use may be slow.
 Privacy and ethics: Our AI system will follow laws like POPIA to protect patient’s data. 
 
 8.Risks 
-
 Incorrect Diagnosis: There is a risk that the AI system might return wrong results when 
 checking symptoms or records. If that happens patient could receive wrong advice or 
 delayed treatment. 
@@ -93,10 +84,9 @@ System Downtime: Problems with the internet or hardware could stop the AI from w
 when needed. 
 Resistance from Healthcare staff: Doctors, nurses, or other staff around the healthcare 
 sector may be worried that AI will replace them and take their jobs, so this can slow down 
-the implementation of the AI system. 
- 
-9.Tools and Techniques 
+the implementation of the AI system.
 
+9.Tools and Techniques 
 Data collection and integration 
 The system will collect information from patient records, lab results, scans, and medical 
 histories. It will combine data from hospitals, clinics, and electronic health records. The 
@@ -127,7 +117,6 @@ The algorithms chosen:
  Random Forest – ensemble method that improves accuracy. 
 
 11. Data 
-
 The MED-Access system needs good-quality medical data to work well. This data should 
 give a clear and correct picture of patient health. It includes information such as patient 
 details and medical history, descriptions of symptoms, results from tests like blood work 
@@ -143,7 +132,7 @@ and useful for solving the problem of too few doctors in hospitals and clinics.
 The AI model will be evaluated through standard machine learning validation techniques: 
 Train/Test Split or Cross-Validation – Ensuring model generalizability. 
 Accuracy Metrics (depending on task): 
- 
+
 Classification: Precision, Recall, F1-score, ROC-AUC. 
 Forecasting: RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), MAPE 
 (Mean Absolute Percentage Error). 
@@ -211,5 +200,4 @@ symptoms, ask health-related questions, or request guidance. The chatbot will us
 to understand the patient’s input, deep learning to make accurate predictions, and speech 
 synthesis to provide spoken responses if needed. This creates a conversational 
 experience where patients feel like they are speaking to a virtual health assistant, 
-reducing barriers to care and making the system easier for everyone to use. 
->>>>>>> aafd18c4d4ef0ecfe3c12ba2038532aa1e70f4d6
+reducing barriers to care and making the system easier for everyone to use.
