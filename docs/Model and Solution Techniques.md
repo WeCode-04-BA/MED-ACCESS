@@ -8,17 +8,14 @@ Accuracy Metrics (depending on task):
 
 Classification : Precision, Recall, F1-score, ROC-AUC.
 
-Forecasting : RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), MAPE (Mean Absolute Percentage Error).
-
 Confusion Matrix Analysis – To measure true positives vs false negatives (important in medical diagnosis).
-
-Domain Validation – Model outputs compared against expert clinician opinions to ensure medical reliability.
 
  This ensures both statistical accuracy and clinical relevance.
 
 # Time Series Analysis on Data
 
 Why Time Series?
+
 South African healthcare faces patterns over time (e.g., HIV testing rates, TB case trends, hospital admissions during flu season, medicine stockouts). AI time series analysis can forecast these and support better planning.
 
 # Techniques Used
