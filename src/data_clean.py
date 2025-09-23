@@ -21,7 +21,7 @@ dataset["Disease_clean"] = dataset["diseases"].str.lower().str.strip()
 matching_diseases = dataset[dataset["Disease_clean"].isin(sa_disease)]
 
 # Adding new diseases to matching list
-additions = ["human immunodeficiency virus infection(hiv)",
+additions = ["human immunodeficiency virus infection (hiv)",
              "lung cancer","brain cancer","allergy","panic attack",
              "diabetes","heart attack","tooth disorder","skin cancer",
              "pregnancy","depression","drug abuse","food allergy","alcoholic liver disease",
