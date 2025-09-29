@@ -47,7 +47,7 @@ while keep_running:
         print(f"\n Precision: {precision:.4f}")
     elif choice == "3":
         recall = recall_score(y_test,y_pred , average="weighted")
-        print(f"\n F1-score: {recall:.4f}")
+        print(f"\n Recall: {recall:.4f}")
     elif choice == "4":
         f1 = f1_score(y_test,y_pred,average="weighted")
         print(f"\n F1-score: {f1:.4f}")
