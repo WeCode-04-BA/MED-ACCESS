@@ -1,13 +1,13 @@
 import pandas as pd
 
 #import the disease and symptoms dataset
-dataset = pd.read_csv("./data/raw/Disease and symptoms dataset.csv")
+dataset = pd.read_csv("./        data/raw/Disease and symptoms dataset.csv")
 
 #drop duplicates
 dataset = dataset.drop_duplicates()
  
 #import the WHO dataset
-who_dataset = pd.read_csv("./data/raw/GHE_FULL_DD.csv")
+who_dataset = pd.read_csv("./        data/raw/GHE_FULL_DD.csv")
 
 # get South Africa data from WHO dataset
 
@@ -44,6 +44,7 @@ final_filtered_dataset.drop(columns=["Disease_clean"] , inplace = True)
 dataset = final_filtered_dataset
 print(dataset.head())
 
+
 #export the dataset
-dataset.to_csv("./data/processed/clean_dataset.csv",index=False)
+dataset.to_csv("./        data/processed/clean_dataset.csv",index=False)
 print("Succefully exported")

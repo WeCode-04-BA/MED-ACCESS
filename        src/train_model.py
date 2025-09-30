@@ -19,7 +19,7 @@ from sklearn.metrics import  accuracy_score
 
 
 #import dataset
-dataset = pd.read_csv("./data/processed/clean_dataset.csv")
+dataset = pd.read_csv("./        data/processed/clean_dataset.csv")
 
 # Use the labelEncode()  to encode the diseases column
 le = LabelEncoder()
@@ -68,7 +68,7 @@ for name, model in models.items():
 from joblib import dump 
 
 # save model to file
-dump(best_model,filename = "./Models/best_model.joblib")
+dump(best_model,filename = "./      models/best_model.joblib")
 print("Successfully exported the model")
 print(f"\n Best model saved: {type(best_model).__name__} with accuracy {best_score:.2f}")
 

@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 import numpy as np
 
 # Load the trained model
-model = joblib.load("./Models/best_model.joblib")
+model = joblib.load("./      models/best_model.joblib")
 
 #create random patient data using 1 and 0 
 patientData1 = np.random.randint(0, 2, size=(10, 377))  
@@ -13,7 +13,7 @@ patientData1 = np.random.randint(0, 2, size=(10, 377))
 predictions = model.predict(patientData1)
 
 # Load the encoder used during training
-dataset = pd.read_csv("./data/processed/clean_dataset.csv")
+dataset = pd.read_csv("./        data/processed/clean_dataset.csv")
 le = LabelEncoder()
 
 # fit and Decode predictions back to disease names

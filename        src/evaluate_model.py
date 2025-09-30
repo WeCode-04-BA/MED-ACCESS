@@ -10,7 +10,7 @@ from sklearn.metrics import  accuracy_score ,precision_score , recall_score , f1
 from sklearn.preprocessing import LabelEncoder
 
 #import dataset , encode the diseases column,Separate  dataset into X and y and split data into train and test
-dataset = pd.read_csv("./data/processed/clean_dataset.csv")
+dataset = pd.read_csv("./        data/processed/clean_dataset.csv")
 le = LabelEncoder()
 dataset["disease_encoded"] = le.fit_transform(dataset["diseases"])
 X = dataset.drop({"diseases","disease_encoded"} ,axis=1)
@@ -18,7 +18,7 @@ y = dataset["disease_encoded"]
 X_train , X_test , y_train , y_test = train_test_split(X,y,test_size=0.2)
 
 #load  the model
-model = joblib.load("./Models/best_model.joblib")
+model = joblib.load("./      models/best_model.joblib")
 
 # Make predictions
 y_pred = model.predict(X_test)
@@ -66,7 +66,7 @@ while keep_running:
         #create report string
         report = (f"\n Accuracy: {accuracy:.4f} \n Precision: {precision:.4f} \n Recall: {recall:.4f} \n F1-score: {f1:.4f} \n Confusion Matrix:\n {cm}")
         print(report)
-        with open("./reports/model_evaluation.txt", "w") as file:
+        with open("./     reports/model_evaluation.txt", "w") as file:
            file.write(report)
         print("report saved!,Thanks for evaluating our model!")
 
