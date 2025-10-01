@@ -5,7 +5,7 @@
 * Module: `Business Analysis 3.2 Project`
 * Institution: `Vaal University of Technology (VUT)`
 * Group Name: `WECODE-04`
-* Year: 2025
+* Year: `2025`
 
 ### Overview
 MED-Access is an AI healthcare system designed to help address the shortage of doctors in `South Africa`. The system predicts diseases based on patient symptoms using `machine learning` classification algorithms.
